@@ -106,6 +106,11 @@ Below is the output of every neuron for the toy dataset. To make it intuitive, I
 <img src ="assets/predicted_architecture.jpg">
 <br>
 From the above diagram, we can observe how non-linearity increases with increasing depth of the neural network. Finally, every neuron of output layer is able to classify one of the classes. This diagram gives us pretty good intuition of how a neural network works. 3D-Plot can also be plotted instead of contours which will give much better intuition of the neural networks and Universal Approximation Theorem.
+<br>
+Now the final, combined, output of visualization of the neural network is shown below.
+<br>
+<img src = "assets/all.png" width="60%">
+<br>
 
 # About Me
 
