@@ -34,9 +34,9 @@ pip install mpl_toolkits
 ## Instantiating object of the model
 ```
 model = FeedForwardNeuralNetwork(n_input = 2, n_output = 1,
-								hidden_sizes = [3],  init_method = 'random',
-								activation_function='sigmoid', 
-								leaky_slope = 0.1)
+				hidden_sizes = [3],  init_method = 'random',
+				activation_function='sigmoid', 
+				leaky_slope = 0.1)
 ```
 * <b>n_input</b>: Number of input features. Default value is 2
 * <b>n_ouput</b>: Number of neurons in output layer (Number of Classes). Default value is 1
@@ -49,10 +49,10 @@ model = FeedForwardNeuralNetwork(n_input = 2, n_output = 1,
 ## Training the model
  ```
  model.fit(X,Y,X_val,Y_val,optimizer='vanilla',
- 		  l2_norm=False,lambda_val=0.8, gamma=0.9,
-		   beta = 0.1, beta1=0.9,beta2=0.9, 
-		   mini_batch_size=32,learning_rate = 1,
-		   epochs = 1,display_loss = False)
+ 	l2_norm=False,lambda_val=0.8, gamma=0.9,
+		beta = 0.1, beta1=0.9,beta2=0.9, 
+		mini_batch_size=32,learning_rate = 1,
+		epochs = 1,display_loss = False)
  ```
 
 * <b>X</b>: Input Train Dataset of correct dimensions
